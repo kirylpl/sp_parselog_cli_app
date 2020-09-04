@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'app/concerns/parse_log_file'
 require_relative 'app/tasks/entities/log_entity'
 require_relative 'app/tasks/queries/log_entities_query'
