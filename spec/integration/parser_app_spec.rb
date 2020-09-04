@@ -25,6 +25,6 @@ RSpec.describe 'Parse Log CLI App' do
 
   context 'when empty log file provided' do
     let(:filepath) { 'spec/fixtures/files/empty.log' }
-    it { expect { cli.to raise_error(RuntimeError, /No log entities found/) }}
+    it { expect { cli.to raise_error(RuntimeError, /No log entities found/) } }
   end
 end

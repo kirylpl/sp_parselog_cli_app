@@ -8,6 +8,7 @@ require_relative 'app/tasks/services/parse_log_service'
 # !/usr/local/bin/ruby
 puts 'Running application'
 
+# Weblog parser App
 class App
   def initialize(args)
     process(args)
