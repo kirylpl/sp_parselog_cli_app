@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# page view counting and adding into array
+# page views counting and adding into array
 class PageViewsQuery
   attr_reader :pages, :page_url
 
